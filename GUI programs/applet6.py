@@ -1,0 +1,15 @@
+from tkinter import *
+master = Tk()
+master.title('applet')
+c = Checkbutton(master,text="male")
+c1 = Checkbutton(master,text="female")
+button = Button(master,text="okay")
+s = Spinbox(master,from_=1,to=10)
+l = Label(master,text="name").place(x=10,y=50)
+e1=Entry(master).place(x=50,y=50)
+button.pack()
+c.pack()
+c1.pack()
+s.pack()
+master.mainloop()
+
